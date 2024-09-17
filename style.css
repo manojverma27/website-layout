@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+    width: 100% ;
+    height: 100vh;
+    background-color: white;
+}
+.main{
+    width: 100%;
+    height: 100%;
+  grid-template-columns: 50% 50%;
+    display: grid;
+ 
+}
+#left{
+    
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.lefttop{
+   
+    font-size: 8vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   padding-left: 20px;
+}
+.leftbottom{
+   gap: 6vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 30px 10px;
+   
+}
+.right{
+   
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    position: relative;
+}
+.righttop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    
+    border-radius: 50px;
+}
+.colors{
+    display: flex;
+    gap: 10px;
+    font-size: 4vh;
+}
+.classa{
+    color: brown;
+}
+
+.classb{
+    color: pink;
+}
+
+.bigb{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    width: 80%;
+}
+
+.heading{
+    font-size: 4vh;
+}
+
+.para {
+    font-size: 2.2vh;
+}
+.image {
+    
+    background-image: url(shutterstock_302087387-1366x2048.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+}
+.blackcircle{
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    right: 15%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.blackcircle:hover{
+    color: black;
+    background: linear-gradient(90deg, #FDFC47 0%, #24FE41 100%);
+    border: 5px solid white;
+}
+.blackcircle h5{
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+.roated{
+    position: absolute;
+    left: 18%;
+    bottom: 8%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 4.4vh;
+    font-weight: 400;
+}
